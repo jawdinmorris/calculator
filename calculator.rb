@@ -8,9 +8,13 @@ end
 
 def multiply (a, b)
   a * b
-  end
+end
 
 def divide (a, b)
   a / b
-  end
+end
+
+def square(a)
+  a ** 2
+end
 # Other methods here :)

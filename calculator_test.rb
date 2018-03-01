@@ -21,4 +21,9 @@ class CalculatorTest < Test::Unit::TestCase
     total = divide(10, 5)
     assert_equal(2, total)
   end
+
+  def test_square
+    total = square(5)
+    assert_equal(25, total)
+  end
 end
